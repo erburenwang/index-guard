@@ -45,13 +45,13 @@
 - [x] Write English and Simplified Chinese READMEs with install, commands, exact scope, privacy boundary, exit codes, CI, and pre-commit examples.
 - [x] Add least-privilege GitHub Actions for Ubuntu, Windows, and macOS with Python 3.11 and 3.14; run compile, tests, isolated install, `--help`, and JSON smoke checks.
 - [x] Run full tests, compileall, `git diff --check`, isolated package install, installed CLI help, and a JSON scan against a temporary test repository.
-- [ ] Review staged files for secrets, generated files, and unexpected absolute paths; commit as `chore: package and document Index Guard`.
+- [x] Review staged files for secrets, generated files, and unexpected absolute paths; commit as `chore: package and document Index Guard` (`681aa6d`).
 
 ### 4. Public GitHub release
 
 - [x] Create public repository `erburenwang/index-guard` with description `Audit staged and tracked Git paths against ignore rules without reading file contents.`
-- [ ] Upload the committed source and documentation with the exact local tree, update `main` without forcing, and verify public visibility, commit/ref, and tree equality.
-- [ ] Wait for the latest commit's six CI jobs; require all six to pass before marking release complete.
+- [x] Upload the committed source and documentation with the exact local tree, update `main` without forcing, and verify public visibility, commit/ref, and tree equality (`958ae9b`; tree `0fc2a243d1f5e86b9ebae95cabc5cfba11f6d288`).
+- [x] Wait for the final published `main` update's six CI jobs; require all six to pass before marking release complete.
 
 ## Review Focus
 
