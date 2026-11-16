@@ -79,3 +79,9 @@ repos:
 - It is not a content-based secret scanner and does not report untracked ignored files. Use `git check-ignore -v PATH` when you need to inspect an untracked path directly.
 
 Git's `--no-index` and NUL-delimited `-z` behavior are documented in the [git-check-ignore manual](https://git-scm.com/docs/git-check-ignore).
+
+## Resume an ignore-rule investigation
+
+Use [Work Context Cards](https://github.com/erburenwang/work-context-cards) to keep the audit report location, the relevant ignore rule and one remaining check in a Markdown handoff. [Try a filled-in example](https://erburenwang.github.io/work-context-cards/#example).
+
+继续排查 Git 忽略规则时，也可用[工作续接卡](https://github.com/erburenwang/work-context-cards)保留报告位置、规则和下一步，再交给新对话或同事。
